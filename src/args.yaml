@@ -1,0 +1,24 @@
+name: "yz"
+version: "0.1.0"
+author: "noxhalt <hlt@tuta.io>"
+about: "Youtube clipper."
+args:
+  - video:
+      about: youtube video id
+      required: true
+      index: 1
+  - output:
+      short: o
+      long: output
+      about: output file.
+      takes_value: true
+  - seek:
+      short: s
+      long: seek
+      about: video seek.
+      takes_value: true
+  - time:
+      short: t
+      long: time
+      about: video time.
+      takes_value: true
