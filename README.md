@@ -3,7 +3,7 @@
 The simple youtube downloader.  
 This is don't have decrypting cipher stream features.
 
-## How to ues?
+## How to use?
 
 Require `ffmpeg`, and add it to `PATH`.
 
